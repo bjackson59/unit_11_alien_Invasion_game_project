@@ -13,4 +13,9 @@ class Settings:
         self.ship_h = 80
         self.ship_speed = 8
 
-
+        self.bullet_file = Path.cwd() / 'Assets' / 'images' / 'green_beam.png'
+        self.laser_sound =  Path.cwd() / 'Assets' / 'sound' / 'laser.mp3'
+        self.bullet_speed = 10
+        self.bullet_w = 50
+        self.bullet_h = 50
+        self.bullet_amount = 5
